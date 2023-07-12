@@ -1,57 +1,62 @@
-66_Datascience_template_folder
-==============================
+# AdOptimize: Instagram A/B Testing for Sales and Traffic Boost
 
-template_for_datascience_projects
+This Git repository focuses on A/B testing of Instagram ad campaigns to optimize sales and drive traffic. The goal is to maximize the effectiveness of your advertising efforts on Instagram by experimenting with different variations and strategies.
 
-Project Organization
-------------
+## Overview:
+In today's competitive market, it's crucial to optimize your Instagram ad campaigns for maximum impact. This repository provides a comprehensive framework for conducting A/B tests, allowing you to evaluate the performance of different ad variations and make data-driven decisions.
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+## Key Features:
+- A/B testing framework specifically designed for Instagram ad campaigns.
+- Analyze the impact of different ad creatives, copy, targeting options, and more.
+- Measure the influence of different strategies on sales, website clicks, search activity, and conversions.
+- Utilize statistical analysis to determine the significance of results.
+- Boost sales and drive traffic by identifying the most effective advertising approaches.
+
+## Benefits:
+- Improve the overall performance of your Instagram ad campaigns.
+- Gain valuable insights into customer behavior and preferences.
+- Optimize your advertising budget by focusing on strategies with the highest impact.
+- Make data-driven decisions to continually refine and enhance your ad campaigns.
+- Achieve higher sales conversions and increased website traffic through targeted optimization.
+
+By leveraging the power of A/B testing and data analysis, AdOptimize empowers you to unlock the true potential of your Instagram ad campaigns, resulting in boosted sales and traffic. Enhance your advertising strategies, engage your target audience effectively, and drive your business towards success.
 
 
---------
+## Project in Detail
+### Major Steps in Running A/B Tests
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+1. **Prerequisites**
+    - Objective and Key Metrics
+        - Objective is to increase the purchases and Traffic
+        - Key Metric
+            - Reach / Amount Spent
+            - Viewed Content / Amount Spent
+            - Purchases/ Amount Spent
+    - Product Groups 
+        - Control and Treatment
+2. **Experimental Design**
+
+    this is the second step where we establish our point to target specific users or all users
+    - Users to target
+        - Objective is to increase the purchases and Traffic
+
+        - <img src="reports/figures/User&apos;s Path to Purchase.png" alt="ALT_TEXT" width="500" height="370">
+
+        - from the above info we are targeting the users of viewed content
+3. **Running Experiment**
+    
+    this is the third step where we establish how long to run the experiment but as basic thumb rule we follow these four things 
+    - ramp up plan
+    - day of week effect
+    - seasonality effect
+    - primary & Novelity effect
+4. **Results to Decision**
+
+    If we observe the above charts clearly we can get to a conlcusion before getting to conclusion let's see what we found from the above charts
+    - The amount spent in Control is 66,818 USD and Treatment is 74,595 USD
+    - Performance Metrics
+        - Range of Users : for each dollar we spent Control : 39 users and Treatment : 20 users
+        - User's Viewed Content : for each dollar we spent Control : 0.866 users and Treatment : 0.749 Users
+        - User's Purchased : for each dollar we spent Control : 0.232 users and Treatment : 0.202 Users
+
+    By the above info we can say that Control group is perfoming better compared to the Treatment group
