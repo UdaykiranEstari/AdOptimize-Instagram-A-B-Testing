@@ -34,6 +34,7 @@ By leveraging the power of A/B testing and data analysis, AdOptimize empowers yo
             - Purchases/ Amount Spent
     - Product Groups 
         - Control and Treatment
+
 2. **Experimental Design**
 
     this is the second step where we establish our point to target specific users or all users
@@ -43,6 +44,7 @@ By leveraging the power of A/B testing and data analysis, AdOptimize empowers yo
         - <img src="reports/figures/User&apos;s Path to Purchase.png" alt="ALT_TEXT" width="500" height="370">
 
         - from the above info we are targeting the users of viewed content
+  
 3. **Running Experiment**
     
     this is the third step where we establish how long to run the experiment but as basic thumb rule we follow these four things 
@@ -50,6 +52,7 @@ By leveraging the power of A/B testing and data analysis, AdOptimize empowers yo
     - day of week effect
     - seasonality effect
     - primary & Novelity effect
+
 4. **Results to Decision**
 
     If we observe the above charts clearly we can get to a conlcusion before getting to conclusion let's see what we found from the above charts
@@ -60,3 +63,8 @@ By leveraging the power of A/B testing and data analysis, AdOptimize empowers yo
         - User's Purchased : for each dollar we spent Control : 0.232 users and Treatment : 0.202 Users
 
     By the above info we can say that Control group is perfoming better compared to the Treatment group
+
+<span style="font-size: small;"><em>
+- for more info about theory I highly recommend: [Emma Ding: A/B Testing Fundamentals](https://www.youtube.com/watch?v=VpTlNRUcIDo&t=11s)
+- Thanks to [AMAN KHARWAL](https://thecleverprogrammer.com/2022/11/14/a-b-testing-using-python/)
+</em></span>
