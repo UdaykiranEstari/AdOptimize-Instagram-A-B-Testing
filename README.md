@@ -67,4 +67,6 @@ By leveraging the power of A/B testing and data analysis, AdOptimize empowers yo
 <span style="font-size: small;"><em>
 - for more info about theory I highly recommend: [Emma Ding: A/B Testing Fundamentals](https://www.youtube.com/watch?v=VpTlNRUcIDo&t=11s)
 - Thanks to [AMAN KHARWAL](https://thecleverprogrammer.com/2022/11/14/a-b-testing-using-python/)
+- More Resources : [Superside](https://www.superside.com/blog/a-b-testing-your-designs)
 </em></span>
+
